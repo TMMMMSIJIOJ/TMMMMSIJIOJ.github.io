@@ -2,62 +2,62 @@
 
 #################################################################################
 
-#EXTINF:-1 tvg-id="Animal Planet HD" tvg-logo="https://raw.githubusercontent.com/abrahamcarvalhoo/playtv/master/logos/animal_planet.png" group-title="Documentarios",Animal Planet HD
+#EXTINF:-1 tvg-id="Animal Planet HD" tvg-logo="http://skyimg.ga/CCTV1.jpg" group-title="Documentarios",CCTV 1
 https://world.pornthe.top/hls/fox.m3u8
 
-#EXTINF:-1 tvg-id="Animal Planet SD" tvg-logo="https://raw.githubusercontent.com/abrahamcarvalhoo/playtv/master/logos/animal_planet.png" group-title="Documentarios",Animal Planet SD
+#EXTINF:-1 tvg-id="Animal Planet SD" tvg-logo="http://skyimg.ga/CCTV2.jpg" group-title="Documentarios",CCTV 2
 http://iptvbrasil1.ddns.net:8080/live/play/play/51.ts
 
-#EXTINF:-1 tvg-id="Discovery Channel HD" tvg-logo="https://raw.githubusercontent.com/abrahamcarvalhoo/playtv/master/logos/discovery_channel.png" group-title="Documentarios",Discovery Channel HD
+#EXTINF:-1 tvg-id="Discovery Channel HD" tvg-logo="http://skyimg.ga/CCTV3.jpg" group-title="Documentarios",CCTV 3
 http://iptvbrasil1.ddns.net:8080/live/play/play/170.ts
 
-#EXTINF:-1 tvg-id="Discovery Channel SD" tvg-logo="https://raw.githubusercontent.com/abrahamcarvalhoo/playtv/master/logos/discovery_channel.png" group-title="Documentarios",Discovery Channel SD
+#EXTINF:-1 tvg-id="Discovery Channel SD" tvg-logo="http://skyimg.ga/CCTV4.jpg" group-title="Documentarios",CCTV 4
 http://iptvbrasil1.ddns.net:8080/live/play/play/46.ts
 
-#EXTINF:-1 tvg-id="Discovery Civilization SD" tvg-logo="https://raw.githubusercontent.com/abrahamcarvalhoo/playtv/master/logos/discovery_civilization.png" group-title="Documentarios",Discovery Civilization SD
+#EXTINF:-1 tvg-id="Discovery Civilization SD" tvg-logo="http://skyimg.ga/CCTV5.jpg" group-title="Documentarios",CCTV 5
 http://iptvbrasil1.ddns.net:8080/live/play/play/50.ts
 
 #################################################################################
 
-#EXTINF:-1 tvg-id="All Sports SD" tvg-logo="https://raw.githubusercontent.com/abrahamcarvalhoo/playtv/master/logos/allsports.png" group-title="Esportes",All Sports SD
+#EXTINF:-1 tvg-id="All Sports SD" tvg-logo="http://skyimg.ga/RLB7ply.jpg" group-title="Esportes",CGTN NEWS
 http://173.236.10.10:1935/dgrau/dgrau/live.m3u8
 
-#EXTINF:-1 tvg-id="Band Sports HD" tvg-logo="https://raw.githubusercontent.com/abrahamcarvalhoo/playtv/master/logos/bandsports.png" group-title="Esportes",Band Sports HD
+#EXTINF:-1 tvg-id="Band Sports HD" tvg-logo="http://skyimg.ga/YGulmbN.jpg" group-title="Esportes",CGTN DOCUMENTARY
 http://iptvbrasil1.ddns.net:8080/live/play/play/184.ts
 
-#EXTINF:-1 tvg-id="Band Sports SD" tvg-logo="https://raw.githubusercontent.com/abrahamcarvalhoo/playtv/master/logos/bandsports.png" group-title="Esportes",Band Sports SD
+#EXTINF:-1 tvg-id="Band Sports SD" tvg-logo="http://skyimg.ga/XeRXTU3.jpg" group-title="Esportes",浙江卫视
 http://iptvbrasil1.ddns.net:8080/live/play/play/58.ts
 
 #################################################################################
 
-#EXTINF:-1 tvg-id="AMC HD" tvg-logo="https://raw.githubusercontent.com/abrahamcarvalhoo/playtv/master/logos/amc.png" group-title="Filmes & Series",AMC HD
+#EXTINF:-1 tvg-id="AMC HD" tvg-logo="http://skyimg.ga/rR1illy.jpg" group-title="Filmes & Series",CNA SINGAPORE
 http://dragoniptv99.dyndns.tv:8505/live/daniel/daniel/1336.ts
 
-#EXTINF:-1 tvg-id="A&E HD" tvg-logo="https://raw.githubusercontent.com/abrahamcarvalhoo/playtv/master/logos/ae.png" group-title="Filmes & Series",A&E HD
+#EXTINF:-1 tvg-id="A&E HD" tvg-logo="http://skyimg.ga/KHm9VIU.jpg" group-title="Filmes & Series",ABC NEWS
 http://iptvbrasil1.ddns.net:8080/live/play/play/176.ts
 
 #################################################################################
 
-#EXTINF:-1 tvg-id="Cartoon Network HD" tvg-logo="https://raw.githubusercontent.com/abrahamcarvalhoo/playtv/master/logos/cartoon_network.png" group-title="Infantil",Cartoon Network HD
+#EXTINF:-1 tvg-id="Cartoon Network HD" tvg-logo="http://skyimg.ga/NBCNN.jpg" group-title="Infantil",NBC NEWS NOW
 http://iptv.servidorfull.com:8081/live/Sab2/PHIMXfqt0L/777.ts
 
-#EXTINF:-1 tvg-id="Cartoon Network SD" tvg-logo="https://raw.githubusercontent.com/abrahamcarvalhoo/playtv/master/logos/cartoon_network.png" group-title="Infantil",Cartoon Network SD
+#EXTINF:-1 tvg-id="Cartoon Network SD" tvg-logo="http://skyimg.ga/PEsoDnd.jpg" group-title="Infantil",EURO NEWS
 http://iptvbrasil1.ddns.net:8080/live/play/play/82.ts
 
 #################################################################################
 
-#EXTINF:-1 tvg-id="Band HD" tvg-logo="https://raw.githubusercontent.com/abrahamcarvalhoo/playtv/master/logos/band.png" group-title="Jornalismo",Band HD
+#EXTINF:-1 tvg-id="Band HD" tvg-logo="http://skyimg.ga/wS71Hs8.jpg" group-title="Jornalismo",RT USA
 http://iptvbrasil1.ddns.net:8080/live/play/play/592.ts
 
-#EXTINF:-1 tvg-id="Band SD" tvg-logo="https://raw.githubusercontent.com/abrahamcarvalhoo/playtv/master/logos/band.png" group-title="Jornalismo",Band SD
+#EXTINF:-1 tvg-id="Band SD" tvg-logo="http://skyimg.ga/wS71Hs8.jpg" group-title="Jornalismo",RT DOCUMENTARY
 http://iptvbrasil1.ddns.net:8080/live/play/play/5.ts
 
 #################################################################################
 
-#EXTINF:-1 tvg-id="1HD Music HD" tvg-logo="https://raw.githubusercontent.com/abrahamcarvalhoo/playtv/master/logos/1hd.png" group-title="Musicas",1HD Music HD
+#EXTINF:-1 tvg-id="1HD Music HD" tvg-logo="http://skyimg.ga/JJEe9Rf.jpg" group-title="Musicas",ARIANG JAPAN
 http://bonus-tv.ru/playlist.m3u8
 
-#EXTINF:-1 tvg-id="DJing Ibiza SD" tvg-logo="https://raw.githubusercontent.com/abrahamcarvalhoo/playtv/master/logos/djing.png" group-title="Musicas",DJing Ibiza SD
+#EXTINF:-1 tvg-id="DJing Ibiza SD" tvg-logo="http://skyimg.ga/807NGS0.jpg" group-title="Musicas",DW NEWS
 http://www.djing.com/tv/live.m3u8
 
 #################################################################################
