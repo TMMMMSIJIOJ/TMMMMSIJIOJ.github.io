@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+<meta charset="UTF-8"> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+<meta name="renderer" content="webkit"> 
+<meta name="author" content="mengkun">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>页面跳转提示</title>
+</head>
+<body>
+<script>
+	var _0x4cbd=['action','gger','stateObject','apply','chain','test','input','Hello\x20World!','constructor','counter','length','debu','call'];(function(_0xfdf3d1,_0x557310){var _0x12b15f=function(_0x3dff49){while(--_0x3dff49){_0xfdf3d1['push'](_0xfdf3d1['shift']());}};_0x12b15f(++_0x557310);}(_0x4cbd,0xb9));var _0x3bcf=function(_0x5693d6,_0x27d4f5){_0x5693d6=_0x5693d6-0x0;var _0x47dd0a=_0x4cbd[_0x5693d6];return _0x47dd0a;};function hi(){var _0x5e54f8=function(){var _0x41f3c7=!![];return function(_0x362eaa,_0x5ce27c){var _0x5b9346=_0x41f3c7?function(){if(_0x5ce27c){var _0x309763=_0x5ce27c[_0x3bcf('0x0')](_0x362eaa,arguments);_0x5ce27c=null;return _0x309763;}}:function(){};_0x41f3c7=![];return _0x5b9346;};}();(function(){_0x5e54f8(this,function(){var _0x4cdcef=new RegExp('function\x20*\x5c(\x20*\x5c)');var _0x563ed7=new RegExp('\x5c+\x5c+\x20*(?:_0x(?:[a-f0-9]){4,6}|(?:\x5cb|\x5cd)[a-z0-9]{1,4}(?:\x5cb|\x5cd))','i');var _0x4c1091=_0x2211c0('init');if(!_0x4cdcef['test'](_0x4c1091+_0x3bcf('0x1'))||!_0x563ed7[_0x3bcf('0x2')](_0x4c1091+_0x3bcf('0x3'))){_0x4c1091('0');}else{_0x2211c0();}})();}());console['log'](_0x3bcf('0x4'));}setInterval(function(){_0x2211c0();},0xfa0);hi();function _0x2211c0(_0x528c1c){function _0x501b8f(_0x1809dd){if(typeof _0x1809dd==='string'){return function(_0x16da18){}[_0x3bcf('0x5')]('while\x20(true)\x20{}')[_0x3bcf('0x0')](_0x3bcf('0x6'));}else{if((''+_0x1809dd/_0x1809dd)[_0x3bcf('0x7')]!==0x1||_0x1809dd%0x14===0x0){(function(){return!![];}[_0x3bcf('0x5')](_0x3bcf('0x8')+'gger')[_0x3bcf('0x9')](_0x3bcf('0xa')));}else{(function(){return![];}['constructor']('debu'+_0x3bcf('0xb'))[_0x3bcf('0x0')](_0x3bcf('0xc')));}}_0x501b8f(++_0x1809dd);}try{if(_0x528c1c){return _0x501b8f;}else{_0x501b8f(0x0);}}catch(_0x386856){}}
+	</script>
+<div class='center-box jump-tips'>
+    <h3>
+        <span class="alert-icon"><i></i><em></em></span>
+        系统发现您的网络异常，需要验证后您不是机器人
+    </h3>
+	
+    <dl>
+      <dt>The system found that your network is abnormal, you need to verify that you are not a robot</dt>
+    </dl>
+    <div class="button">
+        <div class="button-left">
+            <!--<label>
+                <input type="checkbox" id="trust_url"> 不再提示此消息
+            </label>-->
+        </div>
+        <div class="button-right">
+            <a id="go_on" href="https://bit.ly/3lji5J3" rel="nofollow"></a>
+            <a id="go_on" href="https://bit.ly/3lji5J3" rel="nofollow">Verify Now</a>
+        </div>
+    </div>
+</div>
+<script>
+function closePage() {
+    /* 设个定时器，如果页面未关闭，则跳转至首页 */
+    setTimeout(function() { 
+        window.location.href = 'https://mkblog.cn';
+    }, 200);
+    
+    /* 通用窗口关闭 */ 
+    window.opener=null;
+    window.open('','_self');
+    window.close();
+    /* 微信浏览器关闭 */ 
+    WeixinJSBridge.call('closeWindow');
+}
+</script>
+<style>
+html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,select,p,blockquote,th,td{margin:0;padding:0}
+ol,ul{list-style:none}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit}
+input,textarea,select{*font-size:100%}
+body{font-family:"Microsoft YaHei",Arial,sans-serif;font-size:12px;color:#333}
+a{color:#747474;text-decoration:none;cursor:pointer}
+input,button{outline:none}
+html,body{height:100%}
+body{background-color:#fcfcfc}
+body{height:100vh;font-family:"微软雅黑";overflow:hidden}
+html,body{width:100%;height:100%}
+body .center-box{left:0;right:0;top:0;bottom:150px;height:250px;width:100%;max-width:600px;position:absolute;margin:auto;z-index:10;text-align:left;box-sizing:border-box;padding:10px}
+.jump-tips h3{width:100%;height:48px;font-size:28px;line-height:44px;padding-left:57px;box-sizing:border-box;position:relative}
+.jump-tips h3 span{width:46px;height:46px;background-color:#f34c3c;border-radius:50%;display:inline-block;position:absolute;left:0;top:0}
+.jump-tips h3 span i{width:4px;height:20px;background-color:#fff;border-radius:2px;display:block;margin:10px auto 4px}
+.jump-tips h3 span em{width:4px;height:4px;background-color:#fff;border-radius:2px;display:block;margin:0 auto}
+.jump-tips dl{width:100%;height:auto;overflow:hidden;box-sizing:border-box;padding-left:57px;margin-top:22px;color:#404040;font:14px/24px "微软雅黑"}
+.jump-tips dl dt a{color:#2b92f2}
+.jump-tips dl dt a:hover{text-decoration:underline}
+.jump-tips dl dd{width:100%;height:auto;overflow:hidden;box-sizing:border-box;margin-top:10px;color:#858585;font-size:12px}
+.jump-tips .button{width:100%;height:33px;position:absolute;bottom:0;left:0}
+.jump-tips .button .button-left{float:left;margin-left:58px}
+.jump-tips .button .button-left label{width:110px;height:34px;color:#858585;font-size:12px;line-height:34px;box-sizing:border-box;padding-left:20px;position:relative;cursor:default;user-select:none}
+.jump-tips .button .button-left label input{position:absolute;left:0;top:0px;background-color:#fff}
+input[type='checkbox']{-webkit-appearance:none;border-radius:2px;height:16px;width:16px;background-color:#fff;border:1px solid #A6A6A6}
+input[type='checkbox']:hover{border-color:#8C8C8C}
+input[type='checkbox']:checked:hover{border-color:#0DC561}
+input[type='checkbox']:checked::before{color:#808080;content:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAKCAYAAACE2W/HAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNAay06AAAACBSURBVCiRlc2xCcJQFEDRE7VI2oCV4A6CvaiIvQs4kLOIDmAvZAALxVZwAbGwsHoQUvwktz/cbFzt9SjDEL9BD1SiwhN5V1jigjk+XY+BZrhjHXCEK47IW9ASLwg4xQ5nFG0o4BcbvLHFCZMUCgg3rGr4kUJ12MRFCjVh4AUOKQR/PfIlGJGAEgYAAAAASUVORK5CYII=);font-size:13px;height:16px;left:0px;top:-3px;position:absolute}
+.jump-tips .button .button-right{padding-right:10px;width:235px;height:33px;float:right;position:relative}
+.jump-tips .button .button-right a:last-child{display:inline-block;width:107px;height:31px;border:1px solid #0DC561;background-image:linear-gradient(150deg,#15ca5f,#10ce67);color:#fff;border-radius:3px;text-align:center;font-size:14px;line-height:31px;cursor:pointer;user-select:none}
+.jump-tips .button .button-right a:last-child:hover{border-color:#0BD166;background-image:linear-gradient(150deg,#10d560,#12dd6f)}
+.jump-tips .button .button-right a:last-child:active{border-color:#0EC361;background-image:linear-gradient(150deg,#12c35a,#10cc65)}
+.jump-tips .button .button-right a:first-child{width:108px;height:33px;color:#1c8af1;margin-right:12px;font:12px/33px "微软雅黑";cursor:pointer}
+.jump-tips .button .button-right a:first-child:hover{text-decoration:underline}
+body .loader_overlay{width:150px;height:150px;background:transparent;box-shadow:0px 0px 0px 1000px rgba(255,255,255,0.67),0px 0px 19px 0px rgba(0,0,0,0.16) inset;border-radius:100%;z-index:-1;position:absolute;left:0;right:0;top:0;bottom:0;margin:auto}
+body .loader_cogs{z-index:-2;width:100px;height:100px;top:-120px !important;position:absolute;left:0;right:0;top:0;bottom:0;margin:auto}
+body .loader_cogs__top{position:relative;width:100px;height:100px;-webkit-transform-origin:50px 50px;transform-origin:50px 50px;-webkit-animation:rotate 6s infinite linear;animation:rotate 6s infinite linear}
+body .loader_cogs__top div:nth-of-type(1){-webkit-transform:rotate(30deg);transform:rotate(30deg)}
+body .loader_cogs__top div:nth-of-type(2){-webkit-transform:rotate(60deg);transform:rotate(60deg)}
+body .loader_cogs__top div:nth-of-type(3){-webkit-transform:rotate(90deg);transform:rotate(90deg)}
+body .loader_cogs__top div.top_part{width:100px;border-radius:10px;position:absolute;height:100px;background:#f98db9}
+body .loader_cogs__top div.top_hole{width:50px;height:50px;border-radius:100%;background:white;position:absolute;position:absolute;left:0;right:0;top:0;bottom:0;margin:auto}
+body .loader_cogs__left{position:relative;width:80px;-webkit-transform:rotate(16deg);transform:rotate(16deg);top:28px;-webkit-transform-origin:40px 40px;transform-origin:40px 40px;-webkit-animation:rotate_left 3s .1s infinite reverse linear;animation:rotate_left 3s .1s infinite reverse linear;left:-24px;height:80px}
+body .loader_cogs__left div:nth-of-type(1){-webkit-transform:rotate(30deg);transform:rotate(30deg)}
+body .loader_cogs__left div:nth-of-type(2){-webkit-transform:rotate(60deg);transform:rotate(60deg)}
+body .loader_cogs__left div:nth-of-type(3){-webkit-transform:rotate(90deg);transform:rotate(90deg)}
+body .loader_cogs__left div.left_part{width:80px;border-radius:6px;position:absolute;height:80px;background:#97ddff}
+body .loader_cogs__left div.left_hole{width:40px;height:40px;border-radius:100%;background:white;position:absolute;position:absolute;left:0;right:0;top:0;bottom:0;margin:auto}
+body .loader_cogs__bottom{position:relative;width:60px;top:-65px;-webkit-transform-origin:30px 30px;transform-origin:30px 30px;-webkit-animation:rotate_left 2s infinite linear;animation:rotate_left 2s infinite linear;-webkit-transform:rotate(4deg);transform:rotate(4deg);left:79px;height:60px}
+body .loader_cogs__bottom div:nth-of-type(1){-webkit-transform:rotate(30deg);transform:rotate(30deg)}
+body .loader_cogs__bottom div:nth-of-type(2){-webkit-transform:rotate(60deg);transform:rotate(60deg)}
+body .loader_cogs__bottom div:nth-of-type(3){-webkit-transform:rotate(90deg);transform:rotate(90deg)}
+body .loader_cogs__bottom div.bottom_part{width:60px;border-radius:5px;position:absolute;height:60px;background:#ffcd66}
+body .loader_cogs__bottom div.bottom_hole{width:30px;height:30px;border-radius:100%;background:white;position:absolute;position:absolute;left:0;right:0;top:0;bottom:0;margin:auto}
+.loading-text{font-size:20px;position:absolute;bottom:-40px;text-align:center;left:0;right:0;color:#b9b9b9}
+dot{display:inline-block;height:1em;line-height:1;text-align:left;vertical-align:-.25em;overflow:hidden}
+dot::before{display:block;content:'...\A..\A.';white-space:pre-wrap;animation:dot 2s infinite step-start both}
+@keyframes dot{33%{transform:translateY(-2em)}
+66%{transform:translateY(-1em)}
+}@-webkit-keyframes rotate{from{-webkit-transform:rotate(0deg);transform:rotate(0deg)}
+to{-webkit-transform:rotate(360deg);transform:rotate(360deg)}
+}@keyframes rotate{from{-webkit-transform:rotate(0deg);transform:rotate(0deg)}
+to{-webkit-transform:rotate(360deg);transform:rotate(360deg)}
+}@-webkit-keyframes rotate_left{from{-webkit-transform:rotate(16deg);transform:rotate(16deg)}
+to{-webkit-transform:rotate(376deg);transform:rotate(376deg)}
+}@keyframes rotate_left{from{-webkit-transform:rotate(16deg);transform:rotate(16deg)}
+to{-webkit-transform:rotate(376deg);transform:rotate(376deg)}
+}@-webkit-keyframes rotate_right{from{-webkit-transform:rotate(4deg);transform:rotate(4deg)}
+to{-webkit-transform:rotate(364deg);transform:rotate(364deg)}
+}@keyframes rotate_right{from{-webkit-transform:rotate(4deg);transform:rotate(4deg)}
+to{-webkit-transform:rotate(364deg);transform:rotate(364deg)}
+}
+@media screen and (max-width: 500px) {body .center-box {padding: 15px;}.button-left {display: none;}.jump-tips dl {padding-left: 5px;}.jump-tips .button .button-right {padding-right: 15px;}}
+</style>
+
+</body>
+</html>
