@@ -4,4 +4,8 @@ Disallow:
 User-agent: *
 Allow: /
 
+User-agent: googlebot
+Disallow: 
+Disallow: 
+
 Sitemap: https://sky4k.top/sitemap.xml
