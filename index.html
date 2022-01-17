@@ -194,6 +194,77 @@ features start
     }
 
 	</style>
+	<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+</style>
 </head>
 
 <body>
@@ -587,80 +658,65 @@ features start
            (adsbygoogle = window.adsbygoogle || []).push({});
       </script>
 
-<section id="blog" class="main-content">
-  <div class="container">
-      <div class="row session-title"><h2>Blog</h2></div>
-    <section class="x-services ptb-100 gray-bg">
-<section class="section-title">
-<div class="container text-center">
-</div>
-</section>
-<div class="container">
-<div class="row">
-<div class="col-md-6">
-<div class="thumbnail clearfix">
-<a><img class="img-responsive" src="//img.sky4k.top/BLOG/DNS.jpg" alt="Image"></a>
-<div class="caption">
-<h3><a>DNS Down On Certain Country Solved</a></h3>
-<p>On 5 January 2022,The DNS Sever Down In Malaysia,Singapore.The Problem Solved By Us On 18:16 BJT.Sorry For The Inconvenience Caused.</p>
-</div>
-</div>
-</div>
-<div class="col-md-6">
-<div class="thumbnail clearfix">
-<a><img class="img-responsive" src="//img.sky4k.top/BLOG/2020PL.jpg" alt="Image"></a>
-<div class="caption">
-<h3><a>Planning For 2022</a></h3>
-<p>As Same As Last Year 2021,In This 2022 We Had Our New Plan To Provide A Better & More Better User Experience.For Moew Info Please Refer It In Our Telegram Channel @sky4ktv </p>
-</div>
-</div>
-</div>
-</div>
-
-<div class="row">
-<div class="col-md-6">
-<div class="thumbnail clearfix">
-<a><img class="img-responsive" src="//img.sky4k.top/BLOG/2022CO.jpg" alt="Image"></a>
-<div class="caption">
-<h3><a>Countdown Party2022</a></h3>
-<p>The COuntdown 2022 Programme Will Be Live On 浙江卫视，江苏卫视，上海卫视，湖南卫视，CCTV1 FHD，三立SanLI，东森DongSenTW，壹電視NEXT TV，TVBS NEWS.</p>
-</div>
-</div>
-</div>
-<div class="col-md-6">
-<div class="thumbnail clearfix">
-<a><img class="img-responsive" src="//img.sky4k.top/BLOG/MOSITE.jpg" alt="Image"></a>
-<div class="caption">
-<h3><a >Moved To The New Site</a></h3>
-<p>Due To Our Old Domain (sky4k.ga) Get Stealed, We Had Now Offcially Changed To https://sky4k.top Please Take Note.Please Join Our Telegram Channel Also For More Updates.</p>
-</div>
-</div>
-</div>
-<div class="col-md-6">
-<div class="thumbnail clearfix">
-<a><img class="img-responsive" src="//img.sky4k.top/BLOG/UI37.jpg" alt="Image"></a>
-<div class="caption">
-<h3><a>New UI 3.7 For Sky4K</a></h3>
-<p>A New UI/UX For The App.We Had Fixed Player Overlap Bug,Fixed Full Screen Problem,Fixed Player P2P Bug,And Other BUG.More Info Please Check In Our Telegram Channel.</p>
-</div>
-</div>
-</div>
-<div class="col-md-6">
-<div class="thumbnail clearfix">
-<a><img class="img-responsive" src="//img.sky4k.top/BLOG/NE8TAG.jpg" alt="Image"></a>
-<div class="caption">
-<h3><a>Added 8 More CDN Sever & Search Result</a></h3>
-<p>This Gives A Better And A Faster Experience.We Had Also Fixed Search TAG.Make Sure The Sky4K Version Are Up To Date.Lastest Version: Sky4K V25.</p>
-</div>
-</div>
-</div>
-</div>
-
-</div>
-
+<section>
+    <div id="blog" class="testimonial-cover container-fluid">
+        <div class="container test-container">
+            <div class="session-title row">
+                <h2>Blog</h2>
+                <p></p>
+            </div>
+    <div class="row">
+    <div class="leftcolumn">
+    <div class="card">
+      <h2>Our DNS Sever Down On Certain Country Solved</h2>
+      <h5>5 Jan 2022 ; By @cheng100</h5>
+      <div><a><img class="img-responsive" src="//img.sky4k.top/BLOG/DNS.jpg" alt="Image"></a></div>
+      <p></p>
+      <p>On 5 January 2022,The DNS Sever Down In Malaysia,Singapore,Indonesia,Korea,Japan. The Problem Solved On 5 January 2022 18:16 BJT. We Had Also Improved The DNS Uptime To 24/7.Sorry For The Inconvenience Caused.</p>
+      <p1>Special Thanks To @justinteoh (Our Tenical Support) & Tenical Team.</p1>
+    </div>  
+    <div class="card">
+      <h2>Our Planning In 2022</h2>
+      <h5>2 Jan 2022 ; By @sammychenyanyin</h5>
+      <div><a><img class="img-responsive" src="//img.sky4k.top/BLOG/2020PL.jpg" alt="Image"></a></div>
+      <p></p>
+      <p>In This 2022 We Had Our New Plans. Frist,Is To Provide A Better & More Stable Service Uptime. Next, We Also Provide/Optimize A Better User Experience To Our Users. We Had Also Changed To A New Tenical Team & New Support Team. Last, We Had Changed To A New CDN Provider Also, And Added The International Bandwidth & China Bandwidth To Gives All The Users In Diffrent Country Fast Cross-Border Traffic. It Solved Loops And Lag Problems And Reduce Loads. If You Have Any Ideas Or Suggestions Tell Us, We Will Try Our Best To Make It. 😁</p>
+      <p1>Share Your Ideas Or Suggestions In Our Telegram Group : @sky4ktv @sky_4k_app</p1>
+    </div>
+    <div class="card">
+      <h2>Infomation Of Countdown Party 2022</h2>
+      <h5>31 Dec  2021 ; By @sammychenyanyin</h5>
+      <div><a><img class="img-responsive" src="//img.sky4k.top/BLOG/2022CO.jpg" alt="Image"></a></div>
+      <p></p>
+      <p>The Countdown 2022 Programme Will Be Live On 浙江卫视, 江苏卫视, 上海卫视, 湖南卫视, CCTV1 FHD, 三立SanLI, 东森DongSenTW, 壹電視NEXT TV，TVBS NEWS, BiliBili China, Mango TV And Others. </p>
+      <p1>Reminder : Please Strictly Follow Standard Operating Procedures (SOP) When You AAttend Any New Year's Eve Celebration Event. Thanks You.  </p1>
+    </div>
+    <div class="card">
+      <h2>We Had Moved To The New Site - sky4k.top</h2>
+      <h5>29 Dec  2021 ; By @justinteoh</h5>
+      <div><a><img class="img-responsive" src="//img.sky4k.top/BLOG/MOSITE.jpg" alt="Image"></a></div>
+      <p></p>
+      <p>Due To Our Old Domain (sky4k.ga) Get Stealed, We Had Now Offcially Changed To sky4k.top Please Take Note.Please Join Our Telegram Channel Also For More Updates.</p>
+      <p1>Reminder : From Now Onwards We Will Not Changing Our Offcial Site Anymore, sky4k.top Will Be The Only Offcial Site.  </p1>
+    </div>
+    <div class="card">
+      <h2>New UI/UX 3.7 For Sky4K Released</h2>
+      <h5>21 Dec  2021 ; By @justinteoh & @cheng100</h5>
+      <div><a><img class="img-responsive" src="//img.sky4k.top/BLOG/UI37.jpg" alt="Image"></a></div>
+      <p></p>
+      <p>A New UI/UX For The App. Frist, We Had Changed To Full English Interface (UI/UX). We Had Also Fixed Sort Region & Year Problem, Right-Side Recommend Overlap, Player Overlap On Phone And TV, Not Able To Full Screen On TV/TVBOX, Player Playback Speed X2 Not Function, Player P2P CDN And Also Search Result BUG. </p>
+      <p1>Reminder : You Need To Update To The V25 Version Which Is The Latest Version Of Our App. And Only Offcial Version Will Get The Updates In Future. Dont Use Any NON Offcial Release Version. </p1>
+    </div>
+    <div class="card">
+      <h2>We Had Added 8 More CDN Sever & Fixed Search Result (No Match Data)</h2>
+      <h5>18 Dec  2021 ; By @justinteoh & @cheng100 & @HCF</h5>
+      <div><a><img class="img-responsive" src="//img.sky4k.top/BLOG/NE8TAG.jpg" alt="Image"></a></div>
+      <p></p>
+      <p>As We Found That We Had Fast Increase Of The Users And To Reduce Load And Gives Better Users Experience. We Had Added 8 More CDN Sever. We Had Also Fixed Search Result (No Match Data) Problems, And We Had Improved The TAG And Keywords In Diffrent Language.</p>
+      <p1>Reminder : You Need To Restart The App And Get The 7MB Small Upates. The Updates Will Automatically When You Restarted The App And You Will Get A POP Up Of LOG/INFO Once The Update Had Done. </p1>
+    </div>
 </section>
 
-    
      </div>
 
     </div>
