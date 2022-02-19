@@ -1,343 +1,384 @@
-(function ($)
-  { "use strict"
-  
+$(function () {
 
-/* 1. Proloder */
-    $(window).on('load', function () {
-      $('#preloader-active').delay(450).fadeOut('slow');
-      $('body').delay(450).css({
-        'overflow': 'visible'
-      });
+    "use strict";
+
+    //===== Prealoder
+
+    $(window).on('load', function (event) {
+        $('.preloader').delay(500).fadeOut(500);
     });
 
-/* 2. sticky And Scroll UP */
-    $(window).on('scroll', function () {
-      var scroll = $(window).scrollTop();
-      if (scroll < 400) {
-        $(".header-sticky").removeClass("sticky-bar");
-        $('#back-top').fadeOut(500);
-      } else {
-        $(".header-sticky").addClass("sticky-bar");
-        $('#back-top').fadeIn(500);
-      }
+
+    //===== Sticky
+
+    $(window).on('scroll', function (event) {
+        var scroll = $(window).scrollTop();
+        if (scroll < 20) {
+            $(".navbar-area").removeClass("sticky");
+            $(".navbar .navbar-brand img").attr("src", "assets/images/logo.svg");
+        } else {
+            $(".navbar-area").addClass("sticky");
+            $(".navbar .navbar-brand img").attr("src", "assets/images/logo-2.svg");
+        }
     });
 
-  // Scroll Up
-    $('#back-top a').on("click", function () {
-      $('body,html').animate({
-        scrollTop: 0
-      }, 800);
-      return false;
-    });
-  
-
-/* 3. slick Nav */
-// mobile_menu
-    var menu = $('ul#navigation');
-    if(menu.length){
-      menu.slicknav({
-        prependTo: ".mobile_menu",
-        closedSymbol: '+',
-        openedSymbol:'-'
-      });
-    };
 
 
-/* 4. MainSlider-1 */
-    // h1-hero-active
-    function mainSlider() {
-      var BasicSlider = $('.slider-active');
-      BasicSlider.on('init', function (e, slick) {
-        var $firstAnimatingElements = $('.single-slider:first-child').find('[data-animation]');
-        doAnimations($firstAnimatingElements);
+    //===== Section Menu Active
 
-      });
-      BasicSlider.on('beforeChange', function (e, slick, currentSlide, nextSlide) {
-        var $animatingElements = $('.single-slider[data-slick-index="' + nextSlide + '"]').find('[data-animation]');
-        doAnimations($animatingElements);
+    var scrollLink = $('.page-scroll');
+    // Active link switching
+    $(window).scroll(function () {
+        var scrollbarLocation = $(this).scrollTop();
 
-      });
+        scrollLink.each(function () {
 
-      BasicSlider.slick({
-        autoplay: true,
-        autoplaySpeed: 4000,
-        dots: false,
-        fade: true,
-        arrows: false, 
-        prevArrow: '<button type="button" class="slick-prev"><i class="ti-angle-left"></i></button>',
-        nextArrow: '<button type="button" class="slick-next"><i class="ti-angle-right"></i></button>',
-        responsive: [{
-            breakpoint: 1024,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-              infinite: true,
+            var sectionOffset = $(this.hash).offset().top - 73;
+
+            if (sectionOffset <= scrollbarLocation) {
+                $(this).parent().addClass('active');
+                $(this).parent().siblings().removeClass('active');
             }
-          },
-          {
-            breakpoint: 991,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-              arrows: false
-            }
-          },
-          {
-            breakpoint: 767,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-              arrows: false
-            }
-          }
-        ]
-      });
-      function doAnimations(elements) {
-        var animationEndEvents = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
-        elements.each(function () {
-          var $this = $(this);
-          var $animationDelay = $this.data('delay');
-          var $animationType = 'animated ' + $this.data('animation');
-          $this.css({
-            'animation-delay': $animationDelay,
-            '-webkit-animation-delay': $animationDelay
-          });
-          $this.addClass($animationType).one(animationEndEvents, function () {
-            $this.removeClass($animationType);
-          });
         });
-      }
-    }
-    mainSlider();
+    });
 
 
+    //===== close navbar-collapse when a  clicked
 
-/* 4. Testimonial Active*/
-var testimonial = $('.h1-testimonial-active');
-if(testimonial.length){
-testimonial.slick({
-    dots: true,
-    infinite: true,
-    speed: 1000,
-    autoplay:true,
-    loop:true,
-    arrows: true,
-    prevArrow: '<button type="button" class="slick-prev"><i class="ti-arrow-top-left"></i></button>',
-    nextArrow: '<button type="button" class="slick-next"><i class="ti-arrow-top-right"></i></button>',
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          infinite: true,
-          dots: true,
-          arrow:true
+    $(".navbar-nav a").on('click', function () {
+        $(".navbar-collapse").removeClass("show");
+    });
+
+    $(".navbar-toggler").on('click', function () {
+        $(this).toggleClass("active");
+    });
+
+    $(".navbar-nav a").on('click', function () {
+        $(".navbar-toggler").removeClass('active');
+    });    
+    
+
+    //====== Magnific Popup
+
+    $('.video-popup').magnificPopup({
+        type: 'iframe'
+        // other options
+    });
+
+
+    //===== Magnific Popup
+
+    $('.image-popup').magnificPopup({
+        type: 'image',
+        gallery: {
+            enabled: true
         }
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          arrow:true
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          arrow:true
-        }
-      }
-    ]
-  });
-}
+    });
 
 
-// Single Img slder
-$('.top-job-slider').slick({
-  dots: false,
-  infinite: true,
-  autoplay: true,
-  speed: 400,
-  centerPadding: '60px',
-  centerMode: true,
-  focusOnSelect: true,
-  arrows: false,
-  prevArrow: '<button type="button" class="slick-prev"><i class="ti-angle-left"></i></button>',
-  nextArrow: '<button type="button" class="slick-next"><i class="ti-angle-right"></i></button>',
-  slidesToShow: 4,
-  slidesToScroll: 1,
-  responsive: [
-    {
-      breakpoint: 1400,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        infinite: true,
-        dots: false,
-      }
-    },
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1,
-        infinite: true,
-        dots: false,
-      }
-    },
-    {
-      breakpoint: 992,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1,
-        infinite: true,
-        dots: false,
-      }
-    },
-    {
-      breakpoint: 768,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
+    //===== Counter Up
+
+    $('.counter').counterUp({
+        delay: 10,
+        time: 3000
+    });
+
+
+    //===== testimonial active
+
+    $('.testimonial-active').slick({
+        dots: true,
+        speed: 800,
         arrows: false,
-        centerMode: false
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        arrows: false,
-        centerMode: false
-      }
-    },
-  ]
-});
-
-
-
- // Brand Active
- $('.brand-active').slick({
-  dots: false,
-  infinite: true,
-  autoplay: true,
-  speed: 400,
-  arrows: false,
-  slidesToShow: 5,
-  slidesToScroll: 1,
-  responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 4,
-        slidesToScroll: 3,
-        infinite: true,
-        dots: false,
-      }
-    },
-    {
-      breakpoint: 992,
-      settings: {
+        centerMode: true,
+        centerPadding: "0",
         slidesToShow: 3,
-        slidesToScroll: 1,
-        infinite: true,
-        dots: false,
-      }
-    },
-    {
-      breakpoint: 768,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    },
-
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
-  ]
-});
-
-
-/* 6. Nice Selectorp  */
-  var nice_Select = $('select');
-    if(nice_Select.length){
-      nice_Select.niceSelect();
-    }
-
-/* 7. data-background */
-    $("[data-background]").each(function () {
-      $(this).css("background-image", "url(" + $(this).attr("data-background") + ")")
-      });
+        slidesToScroll: 4,
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 3,
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 2,
+                    centerMode: false,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                }
+            },
+        ]
+    });
 
 
-/* 10. WOW active */
+    //===== Back to top
+
+    // Show or hide the sticky footer button
+    $(window).on('scroll', function (event) {
+        if ($(this).scrollTop() > 600) {
+            $('.back-to-top').fadeIn(200)
+        } else {
+            $('.back-to-top').fadeOut(200)
+        }
+    });
+
+
+    //Animate the scroll to yop
+    $('.back-to-top').on('click', function (event) {
+        event.preventDefault();
+
+        $('html, body').animate({
+            scrollTop: 0,
+        }, 1500);
+    });
+
+
+    //=====  WOW active
+
     new WOW().init();
 
-// 11. ---- Mailchimp js --------//  
-    function mailChimp() {
-      $('#mc_embed_signup').find('form').ajaxChimp();
-    }
-    mailChimp();
+
+    //=====  particles
 
 
-// 12 Pop Up Img
-    var popUp = $('.single_gallery_part, .img-pop-up');
-      if(popUp.length){
-        popUp.magnificPopup({
-          type: 'image',
-          gallery:{
-            enabled:true
-          }
-        });
-      }
-// 12 Pop Up Video
-    var popUp = $('.popup-video');
-    if(popUp.length){
-      popUp.magnificPopup({
-        type: 'iframe'
-      });
-    }
-
-/* 13. counterUp*/
-    $('.counter').counterUp({
-      delay: 10,
-      time: 3000
+    if (document.getElementById("particles-1")) particlesJS("particles-1", {
+        "particles": {
+            "number": {
+                "value": 40,
+                "density": {
+                    "enable": !0,
+                    "value_area": 4000
+                }
+            },
+            "color": {
+                "value": ["#FFFFFF", "#FFFFFF", "#FFFFFF"]
+            },
+            "shape": {
+                "type": "circle",
+                "stroke": {
+                    "width": 0,
+                    "color": "#fff"
+                },
+                "polygon": {
+                    "nb_sides": 5
+                },
+                "image": {
+                    "src": "img/github.svg",
+                    "width": 33,
+                    "height": 33
+                }
+            },
+            "opacity": {
+                "value": 0.15,
+                "random": !0,
+                "anim": {
+                    "enable": !0,
+                    "speed": 0.2,
+                    "opacity_min": 0.15,
+                    "sync": !1
+                }
+            },
+            "size": {
+                "value": 50,
+                "random": !0,
+                "anim": {
+                    "enable": !0,
+                    "speed": 2,
+                    "size_min": 5,
+                    "sync": !1
+                }
+            },
+            "line_linked": {
+                "enable": !1,
+                "distance": 150,
+                "color": "#ffffff",
+                "opacity": 0.4,
+                "width": 1
+            },
+            "move": {
+                "enable": !0,
+                "speed": 1,
+                "direction": "top",
+                "random": !0,
+                "straight": !1,
+                "out_mode": "out",
+                "bounce": !1,
+                "attract": {
+                    "enable": !1,
+                    "rotateX": 600,
+                    "rotateY": 600
+                }
+            }
+        },
+        "interactivity": {
+            "detect_on": "canvas",
+            "events": {
+                "onhover": {
+                    "enable": !1,
+                    "mode": "bubble"
+                },
+                "onclick": {
+                    "enable": !1,
+                    "mode": "repulse"
+                },
+                "resize": !0
+            },
+            "modes": {
+                "grab": {
+                    "distance": 400,
+                    "line_linked": {
+                        "opacity": 1,
+                    }
+                },
+                "bubble": {
+                    "distance": 250,
+                    "size": 0,
+                    "duration": 2,
+                    "opacity": 0,
+                    "speed": 3
+                },
+                "repulse": {
+                    "distance": 400,
+                    "duration": 0.4
+                },
+                "push": {
+                    "particles_nb": 4
+                },
+                "remove": {
+                    "particles_nb": 2
+                }
+            }
+        },
+        "retina_detect": !0
     });
 
-/* 14. Datepicker */
-  $('#datepicker1').datepicker();
+    if (document.getElementById("particles-2")) particlesJS("particles-2", {
+        "particles": {
+            "number": {
+                "value": 40,
+                "density": {
+                    "enable": !0,
+                    "value_area": 4000
+                }
+            },
+            "color": {
+                "value": ["#FFFFFF", "#FFFFFF", "#FFFFFF"]
+            },
+            "shape": {
+                "type": "circle",
+                "stroke": {
+                    "width": 0,
+                    "color": "#fff"
+                },
+                "polygon": {
+                    "nb_sides": 5
+                },
+                "image": {
+                    "src": "img/github.svg",
+                    "width": 33,
+                    "height": 33
+                }
+            },
+            "opacity": {
+                "value": 0.15,
+                "random": !0,
+                "anim": {
+                    "enable": !0,
+                    "speed": 0.2,
+                    "opacity_min": 0.15,
+                    "sync": !1
+                }
+            },
+            "size": {
+                "value": 50,
+                "random": !0,
+                "anim": {
+                    "enable": !0,
+                    "speed": 2,
+                    "size_min": 5,
+                    "sync": !1
+                }
+            },
+            "line_linked": {
+                "enable": !1,
+                "distance": 150,
+                "color": "#ffffff",
+                "opacity": 0.4,
+                "width": 1
+            },
+            "move": {
+                "enable": !0,
+                "speed": 1,
+                "direction": "top",
+                "random": !0,
+                "straight": !1,
+                "out_mode": "out",
+                "bounce": !1,
+                "attract": {
+                    "enable": !1,
+                    "rotateX": 600,
+                    "rotateY": 600
+                }
+            }
+        },
+        "interactivity": {
+            "detect_on": "canvas",
+            "events": {
+                "onhover": {
+                    "enable": !1,
+                    "mode": "bubble"
+                },
+                "onclick": {
+                    "enable": !1,
+                    "mode": "repulse"
+                },
+                "resize": !0
+            },
+            "modes": {
+                "grab": {
+                    "distance": 400,
+                    "line_linked": {
+                        "opacity": 1,
+                    }
+                },
+                "bubble": {
+                    "distance": 250,
+                    "size": 0,
+                    "duration": 2,
+                    "opacity": 0,
+                    "speed": 3
+                },
+                "repulse": {
+                    "distance": 400,
+                    "duration": 0.4
+                },
+                "push": {
+                    "particles_nb": 4
+                },
+                "remove": {
+                    "particles_nb": 2
+                }
+            }
+        },
+        "retina_detect": !0
+    });
 
-// 15. Time Picker
-  $('#timepicker').timepicker();
-
-//16. Overlay
-  $(".snake").snakeify({
-    speed: 200
-  });
 
 
-//17.  Progress barfiller
 
-  $('#bar1').barfiller();
-  $('#bar2').barfiller();
-  $('#bar3').barfiller();
-  $('#bar4').barfiller();
-  $('#bar5').barfiller();
-  $('#bar6').barfiller();
 
-})(jQuery);
+
+});
