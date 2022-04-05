@@ -1,4 +1,4 @@
 
 #Begin Attracta SEO Tools Sitemap. Do not remove
-sitemap: https://sky4k.top/1MAP/sitemap.xml
+sitemap: https://sky4k.top/sitemap.xml
 #End Attracta SEO Tools Sitemap. Do not remove
