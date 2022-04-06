@@ -9,12 +9,12 @@
 
 <url>
   <loc>https://sky4k.top/</loc>
-  <lastmod>2022-04-05T07:15:35+00:00</lastmod>
+  <lastmod>2022-04-06T10:46:38+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://sky4k.top/index.html</loc>
-  <lastmod>2022-04-05T07:15:35+00:00</lastmod>
+  <lastmod>2022-04-06T10:46:38+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
@@ -24,12 +24,17 @@
 </url>
 <url>
   <loc>https://sky4k.top/blog/</loc>
-  <lastmod>2022-04-05T07:15:35+00:00</lastmod>
+  <lastmod>2022-04-06T10:46:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sky4k.top/blacklist/</loc>
+  <lastmod>2022-04-06T10:46:38+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://sky4k.top/contact-us/</loc>
-  <lastmod>2022-04-05T07:15:35+00:00</lastmod>
+  <lastmod>2022-04-06T10:46:38+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
@@ -39,17 +44,17 @@
 </url>
 <url>
   <loc>https://sky4k.top/privacy-policy/</loc>
-  <lastmod>2022-04-05T07:15:35+00:00</lastmod>
+  <lastmod>2022-04-06T10:46:38+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://sky4k.top/status/</loc>
-  <lastmod>2022-04-05T07:15:35+00:00</lastmod>
+  <lastmod>2022-04-06T10:46:38+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://sky4k.top/download/</loc>
-  <lastmod>2022-04-05T07:15:35+00:00</lastmod>
+  <lastmod>2022-04-06T10:46:38+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
@@ -58,18 +63,23 @@
   <priority>0.64</priority>
 </url>
 <url>
+  <loc>https://sky4k.top/blacklist/index.html</loc>
+  <lastmod>2022-04-06T10:46:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
   <loc>https://sky4k.top/contact-us/index.html</loc>
-  <lastmod>2022-04-05T07:15:35+00:00</lastmod>
+  <lastmod>2022-04-06T10:46:38+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://sky4k.top/faq/index.html</loc>
-  <lastmod>2022-04-05T07:15:35+00:00</lastmod>
+  <lastmod>2022-04-06T10:46:38+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://sky4k.top/privacy-policy/index.html</loc>
-  <lastmod>2022-04-05T07:15:35+00:00</lastmod>
+  <lastmod>2022-04-06T10:46:38+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
@@ -79,7 +89,7 @@
 </url>
 <url>
   <loc>https://sky4k.top/download/index.html</loc>
-  <lastmod>2022-04-05T07:15:35+00:00</lastmod>
+  <lastmod>2022-04-06T10:46:38+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 

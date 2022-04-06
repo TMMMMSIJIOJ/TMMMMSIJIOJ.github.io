@@ -7,7 +7,7 @@
 <item>
      <link>https://sky4k.top/</link>
      <title>Sky4K | 天空4K - Stream Live TV, VOD, Music, Radio For FREE Anytime, Anywhere.</title>
-     <description>Sky4K | 天空4K ( sky4k.top ) is FREE and exclusive for all of you. Download Sky4K now and start streaming the entertainment that you love anytime, anywhere.</description>
+     <description>Sky4K | 天空4K | SkyVOD | SkyMusic | SkyRadio | SkyIMG  ( sky4k.top ) is FREE and exclusive for all of you. Download Sky4K now and start streaming the entertainment that you love anytime, anywhere.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>0</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
@@ -15,7 +15,7 @@
 <item>
      <link>https://sky4k.top/index.html</link>
      <title>Sky4K | 天空4K - Stream Live TV, VOD, Music, Radio For FREE Anytime, Anywhere.</title>
-     <description>Sky4K | 天空4K ( sky4k.top ) is FREE and exclusive for all of you. Download Sky4K now and start streaming the entertainment that you love anytime, anywhere.</description>
+     <description>Sky4K | 天空4K | SkyVOD | SkyMusic | SkyRadio | SkyIMG  ( sky4k.top ) is FREE and exclusive for all of you. Download Sky4K now and start streaming the entertainment that you love anytime, anywhere.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
@@ -32,6 +32,14 @@
      <link>https://sky4k.top/blog/</link>
      <title></title>
      
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://sky4k.top/blacklist/</link>
+     <title>Blacklist - Sky4K | 天空4K</title>
+     <description>Sky4K | 天空4K Blacklist - Find out about which users or people that sell our app and prevent others users get scammed by irresponsibe people.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
@@ -70,8 +78,8 @@
 </item>
 <item>
      <link>https://sky4k.top/download/</link>
-     <title>[Official] Download Sky4K | 天空4K </title>
-     <description>Complimentary app for all of your. Stream your favourite movies and tv shows on mobile, tablet and laptop on the go, anywhere you want.</description>
+     <title>[Official] Download Now - Sky4K | 天空4K</title>
+     <description>Phone, Tablet, TV Box, Android TV, Smart TV, Android Emulator And Etc. Sky4K Complimentary app for all of your. Stream your favourite movies and tv shows on mobile, tablet and laptop on the go, anywhere you want.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
@@ -80,6 +88,14 @@
      <link>https://sky4k.top/about-us/index.html</link>
      <title>About Us - Sky4K | 天空4K</title>
      <description>Sky4K | 天空4K Help &amp; Support - Find out about technical issues for TV &amp; Broadband; manage and understand your Sky4K | 天空4K account and offerings, read FAQs &amp; more.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://sky4k.top/blacklist/index.html</link>
+     <title>Blacklist - Sky4K | 天空4K</title>
+     <description>Sky4K | 天空4K Blacklist - Find out about which users or people that sell our app and prevent others users get scammed by irresponsibe people.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>2</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
@@ -118,8 +134,8 @@
 </item>
 <item>
      <link>https://sky4k.top/download/index.html</link>
-     <title>[Official] Download Sky4K | 天空4K </title>
-     <description>Complimentary app for all of your. Stream your favourite movies and tv shows on mobile, tablet and laptop on the go, anywhere you want.</description>
+     <title>[Official] Download Now - Sky4K | 天空4K</title>
+     <description>Phone, Tablet, TV Box, Android TV, Smart TV, Android Emulator And Etc. Sky4K Complimentary app for all of your. Stream your favourite movies and tv shows on mobile, tablet and laptop on the go, anywhere you want.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>2</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
