@@ -1,118 +1,144 @@
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!--  created with Free Online Sitemap Generator www.xml-sitemaps.com  -->
-<url>
-<loc>https://sky4k.top/</loc>
-<lastmod>2022-04-07T12:17:46+00:00</lastmod>
-<priority>1.00</priority>
-</url>
-<url>
-<loc>https://sky4k.top/index.html</loc>
-<lastmod>2022-04-07T12:17:46+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://sky4k.top/about-us/</loc>
-<lastmod>2022-04-07T12:17:46+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://sky4k.top/blog/</loc>
-<lastmod>2022-04-07T12:17:46+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://sky4k.top/blacklist/</loc>
-<lastmod>2022-04-07T12:17:46+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://sky4k.top/contact-us/</loc>
-<lastmod>2022-04-07T12:17:46+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://sky4k.top/faq/</loc>
-<lastmod>2022-04-07T12:17:46+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://sky4k.top/privacy-policy/</loc>
-<lastmod>2022-04-07T12:17:46+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://sky4k.top/status/</loc>
-<lastmod>2022-04-07T12:17:46+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://sky4k.top/page/1/</loc>
-<lastmod>2022-04-07T12:17:46+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://sky4k.top/page/2/</loc>
-<lastmod>2022-04-07T08:19:16+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://sky4k.top/download/</loc>
-<lastmod>2022-04-06T11:33:05+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://sky4k.top/about-us/index.html</loc>
-<lastmod>2022-04-07T12:17:46+00:00</lastmod>
-<priority>0.64</priority>
-</url>
-<url>
-<loc>https://sky4k.top/blacklist/index.html</loc>
-<lastmod>2022-04-07T12:17:46+00:00</lastmod>
-<priority>0.64</priority>
-</url>
-<url>
-<loc>https://sky4k.top/contact-us/index.html</loc>
-<lastmod>2022-04-07T12:17:46+00:00</lastmod>
-<priority>0.64</priority>
-</url>
-<url>
-<loc>https://sky4k.top/faq/index.html</loc>
-<lastmod>2022-04-07T12:17:46+00:00</lastmod>
-<priority>0.64</priority>
-</url>
-<url>
-<loc>https://sky4k.top/privacy-policy/index.html</loc>
-<lastmod>2022-04-07T12:17:46+00:00</lastmod>
-<priority>0.64</priority>
-</url>
-<url>
-<loc>https://sky4k.top/status/index.html</loc>
-<lastmod>2022-04-07T12:17:46+00:00</lastmod>
-<priority>0.64</priority>
-</url>
-<url>
-<loc>https://sky4k.top/page/1/index.html</loc>
-<lastmod>2022-04-07T12:17:46+00:00</lastmod>
-<priority>0.64</priority>
-</url>
-<url>
-<loc>https://sky4k.top/page/2/index.html</loc>
-<lastmod>2022-04-07T12:17:46+00:00</lastmod>
-<priority>0.64</priority>
-</url>
-<url>
-<loc>https://sky4k.top/download/index.html</loc>
-<lastmod>2022-04-07T12:17:46+00:00</lastmod>
-<priority>0.64</priority>
-</url>
-<url>
-<loc>https://rewards.sky4k.top/</loc>
-<lastmod>2022-04-07T12:16:33+00:00</lastmod>
-<priority>1.00</priority>
-</url>
-<url>
-<loc>https://rewards.sky4k.top/index.html</loc>
-<lastmod>2022-04-07T12:16:33+00:00</lastmod>
-<priority>0.80</priority>
-</url>
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xsi:schemaLocation="
+            http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with PRO Sitemap Service https://pro-sitemaps.com -->
+
+  <url>
+       <loc>https://sky4k.top/</loc>
+       <lastmod>2022-04-10T06:40:32+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>1.0000</priority>
+  </url>
+  <url>
+       <loc>https://sky4k.top/index.html</loc>
+       <lastmod>2022-04-10T06:40:32+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://sky4k.top/about-us/</loc>
+       <lastmod>2022-04-10T06:40:32+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.9500</priority>
+  </url>
+  <url>
+       <loc>https://sky4k.top/blog/</loc>
+       <lastmod>2022-04-10T06:40:32+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.9500</priority>
+  </url>
+  <url>
+       <loc>https://sky4k.top/blacklist/</loc>
+       <lastmod>2022-04-08T16:09:50+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.9500</priority>
+  </url>
+  <url>
+       <loc>https://sky4k.top/contact-us/</loc>
+       <lastmod>2022-04-10T06:40:32+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.9500</priority>
+  </url>
+  <url>
+       <loc>https://sky4k.top/faq/</loc>
+       <lastmod>2022-04-08T16:09:50+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.9500</priority>
+  </url>
+  <url>
+       <loc>https://sky4k.top/privacy-policy/</loc>
+       <lastmod>2022-04-08T16:09:50+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.9500</priority>
+  </url>
+  <url>
+       <loc>https://sky4k.top/status/</loc>
+       <lastmod>2022-04-10T06:40:32+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.9500</priority>
+  </url>
+  <url>
+       <loc>https://sky4k.top/page/1/</loc>
+       <lastmod>2022-04-08T16:09:50+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.9500</priority>
+  </url>
+  <url>
+       <loc>https://sky4k.top/page/2/</loc>
+       <lastmod>2022-04-08T16:09:50+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.9500</priority>
+  </url>
+  <url>
+       <loc>https://sky4k.top/download/</loc>
+       <lastmod>2022-04-10T06:40:32+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.9500</priority>
+  </url>
+  <url>
+       <loc>https://sky4k.top/sitemap.xml</loc>
+       <lastmod>2022-04-10T06:40:32+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.9500</priority>
+  </url>
+  <url>
+       <loc>https://sky4k.top/about-us/index.html</loc>
+       <lastmod>2022-04-08T16:09:50+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.9500</priority>
+  </url>
+  <url>
+       <loc>https://sky4k.top/blacklist/index.html</loc>
+       <lastmod>2022-04-08T16:09:50+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.9500</priority>
+  </url>
+  <url>
+       <loc>https://sky4k.top/contact-us/index.html</loc>
+       <lastmod>2022-04-08T16:09:50+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.9500</priority>
+  </url>
+  <url>
+       <loc>https://sky4k.top/faq/index.html</loc>
+       <lastmod>2022-04-08T16:09:50+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.9500</priority>
+  </url>
+  <url>
+       <loc>https://sky4k.top/privacy-policy/index.html</loc>
+       <lastmod>2022-04-08T16:09:50+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.9500</priority>
+  </url>
+  <url>
+       <loc>https://sky4k.top/status/index.html</loc>
+       <lastmod>2022-04-08T16:09:50+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://sky4k.top/page/1/index.html</loc>
+       <lastmod>2022-04-10T06:40:32+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.9500</priority>
+  </url>
+  <url>
+       <loc>https://sky4k.top/page/2/index.html</loc>
+       <lastmod>2022-04-08T16:09:50+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.9500</priority>
+  </url>
+  <url>
+       <loc>https://sky4k.top/download/index.html</loc>
+       <lastmod>2022-04-10T06:40:32+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.9500</priority>
+  </url>
 </urlset>
