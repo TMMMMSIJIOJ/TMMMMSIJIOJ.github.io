@@ -517,3 +517,17 @@ main::after {
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
     }
 }
+
+@media only screen and (max-width: 1200px) {
+    body {
+        font-size: 14px;
+    }
+
+    .viewers {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+
+    .recommendedContent {
+        grid-template-columns: auto auto auto auto auto auto;
+    }
+}
