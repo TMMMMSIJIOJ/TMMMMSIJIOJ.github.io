@@ -221,7 +221,7 @@ main::after {
     display: grid;
     grid-gap: 25px;
     gap: 25px;
-    grid-template-columns: repeat(5, minmax(0, 1fr));
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 .viewerWrap {
