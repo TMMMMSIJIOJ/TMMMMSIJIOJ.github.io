@@ -276,7 +276,7 @@ main::after {
     display: grid;
     grid-gap: 25px;
     gap: 25px;
-    grid-template-columns: repeat(5,minmax(0,1fr));
+    grid-template-columns: auto auto auto auto auto auto;
 }
 
 .recWrap {
@@ -319,7 +319,7 @@ main::after {
     }
 
     .recommendedContent {
-        grid-template-columns: repeat(5, minmax(0, 1fr));
+        grid-template-columns: auto auto auto auto auto auto;
     }
 }
 
@@ -333,7 +333,7 @@ main::after {
     }
 
     .recommendedContent {
-        grid-template-columns: repeat(5, minmax(0, 1fr));
+        grid-template-columns: auto auto auto auto auto auto;
     }
 }
 
@@ -347,7 +347,7 @@ main::after {
     }
 
     .recommendedContent {
-        grid-template-columns: repeat(5, minmax(0, 1fr));
+        grid-template-columns: auto auto auto auto auto auto;
     }
 }
 @media only screen and (min-width: 980px) and (max-width: 658px) {
@@ -360,7 +360,7 @@ main::after {
     }
 
     .recommendedContent {
-        grid-template-columns: repeat(5, minmax(0, 1fr));
+        grid-template-columns: auto auto auto auto auto auto;
     }
 }
 
@@ -374,6 +374,6 @@ main::after {
     }
 
     .recommendedContent {
-        grid-template-columns: repeat(5, minmax(0, 1fr));
+        grid-template-columns: auto auto auto auto auto auto;
     }
 }
