@@ -489,3 +489,31 @@ main::after {
         grid-template-columns: auto auto auto auto auto auto;
     }
 }
+
+@media only screen and (min-width: 481px) and (max-width: 2000px) {
+    body {
+        font-size: 15px;
+    }
+
+    .viewers {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+
+    .recommendedContent {
+        grid-template-columns: auto auto auto auto auto auto;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 2800px) {
+    body {
+        font-size: 15px;
+    }
+
+    .viewers {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+
+    .recommendedContent {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+    }
+}
