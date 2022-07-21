@@ -269,7 +269,7 @@ main::after {
 
 .recommends {
     padding: 0 0 26px;
-    grid-template-columns: repeat(5,minmax(0,1fr));
+    grid-template-columns: auto auto auto auto auto auto;
 }
 
 .recommendedContent {
