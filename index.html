@@ -521,7 +521,58 @@ b.async=!0;b.src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
   
     </section>
     <!-- End Hero Area -->
-     
+    <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"><link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;display=swap"><link rel="stylesheet" type="text/css" href="https://mdbootstrap.com/api/snippets/static/download/MDB-Pro_4.20.0/css/bootstrap.min.css"><link rel="stylesheet" type="text/css" href="https://mdbootstrap.com/api/snippets/static/download/MDB-Pro_4.20.0/css/mdb.min.css"><link rel="stylesheet" type="text/css" href="https://mdbootstrap.com/wp-content/themes/mdbootstrap4/docs-app/css/compiled-addons-4.20.0.min.css"><link rel="stylesheet" type="text/css" href="https://mdbootstrap.com/wp-content/themes/mdbootstrap4/css/mdb-plugins-gathered.min.css"><style></style>
+
+
+
+<div class="container z-depth-1 my-5 py-5">
+  
+
+  <!-- Section: Block Content -->
+  <section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+            <iframe id="player" class="embed-responsive-item" src="https://www.youtube.com/embed/U7m-iI0mFWk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h6 class="font-weight-bold text-center grey-text text-uppercase small mb-4">video</h6>
+    <h3 class="font-weight-bold text-center dark-grey-text pb-2">Explore</h3>
+    <hr class="w-header my-4">
+    <p class="lead text-center text-muted pt-2 mb-5">Sky4K LLC | New features | Sky4K the smart set-top-app | TV channels & VOD & Music & Radio (4K)</p>
+
+    <div class="row">
+      <div class="col-md-8 mx-auto mb-4">
+
+          <div class="view z-depth-1 rounded">
+            <img class="rounded img-fluid" src="https://i.ytimg.com/vi/U7m-iI0mFWk/hq720.jpg" alt="Video title">
+            <div class="mask flex-center rgba-white-light">
+              <a id="play" class="btn-floating btn-danger btn-lg" data-toggle="modal" data-target="#modal1"><i class="fas fa-play"></i></a>
+            </div>
+          </div>
+
+      </div>
+    </div>
+
+  </section>
+  <!-- Section: Block Content -->
+
+  
+</div><script src="https://mdbootstrap.com/api/snippets/static/download/MDB-Pro_4.20.0/js/jquery.min.js"></script><script src="https://mdbootstrap.com/api/snippets/static/download/MDB-Pro_4.20.0/js/popper.min.js"></script><script src="https://mdbootstrap.com/api/snippets/static/download/MDB-Pro_4.20.0/js/bootstrap.min.js"></script><script src="https://mdbootstrap.com/api/snippets/static/download/MDB-Pro_4.20.0/js/mdb.min.js"></script><script src="https://mdbootstrap.com/wp-content/themes/mdbootstrap4/docs-app/js/bundles/4.20.0/compiled-addons.min.js"></script><script>$('#play').on('click', function (e) {
+  e.preventDefault();
+  $("#player")[0].src += "?autoplay=1";
+  $('#player').show();
+  $('#video-cover').hide();
+})
+$('#modal1').on('hidden.bs.modal', function (e) {
+  $('#modal1 iframe').attr("src", $("#modal1 iframe").attr("src"));
+});</script><script type="text/javascript" src="https://mdbootstrap.com/wp-content/themes/mdbootstrap4/js/plugins/mdb-plugins-gathered.min.js"></script> 
      
     <!-- Start Services Area -->
     <section class="services section">
