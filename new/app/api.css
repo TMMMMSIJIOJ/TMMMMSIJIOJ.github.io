@@ -1,4 +1,4 @@
-/* CSS VARIABLES */
+      /* CSS VARIABLES */
 :root {
   --primary: #161824;
   --light: #F3F3F3;
@@ -121,6 +121,7 @@ header {
   -ms-transform: scale(1.4);
   -webkit-transform: scale(1.4);  
   transform: scale(1.4);
+  border: 3px solid rgb(255,215,0);
 }
 
 .box img {
@@ -258,6 +259,7 @@ footer {
     grid-gap: 20px;
     grid-template-columns: repeat(1, 1fr);
     text-align: center;    
+    border: 3px solid rgb(255,215,0);
   }
 
   .box a:hover {
@@ -265,6 +267,7 @@ footer {
     -ms-transform: scale(1);
     -webkit-transform: scale(1);  
     transform: scale(1.2);
+    border: 3px solid rgb(255,215,0);
   }
 
   .logos {
