@@ -181,7 +181,7 @@ a:focus,a:hover,a:active{ text-decoration:none; color: #FF9900;}
     .stui-header__top{ height: 60px; padding:0 10px;}
     .stui-header__logo{ margin: 10px 0 0; padding: 0;}
     .stui-header__logo .logo{width: 148px; height:35px;background:url(../img/logo_min.png) no-repeat;background-position:50% 50%;background-size:cover}
-    .stui-header__search{ float: none; width: auto; margin: 0; position: absolute; top: 15px; right: 10px; left: 168px;}
+    .stui-header__search{ float: none; width: auto; margin: 0; position: absolute; top: 15px; right: 10px; left: 578px;}
     .stui-header__search .form-control{ height: 30px; line-height: 30px; border-radius: 5px; padding:6px 40px 6px 10px; border: 0;}
     .stui-header__search .submit{ width: 30px; height: 30px;}
     .stui-header__menu{ position:relative; margin: 0;}
